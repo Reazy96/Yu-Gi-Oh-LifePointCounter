@@ -39,7 +39,7 @@ const Counter = () => {
 
       <input
         type="Number"
-        placeholder=""
+        placeholder="type your Damage"
         onChange={(event) => setAttack(Number(event.target.value))}
         value={attack}
       />
@@ -50,6 +50,7 @@ const Counter = () => {
       {fullPoints <= 0 ? <h6> You Loose </h6> : ""}
 
       <audio controls src="../../../public/Yu-Gi-Oh Life Points.mp3"></audio>
+      <audio autoPlay="true" src="../../../public/song.mp3"></audio>
     </section>
   );
 };
