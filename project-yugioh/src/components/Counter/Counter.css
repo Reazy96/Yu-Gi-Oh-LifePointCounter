@@ -1,0 +1,60 @@
+svg {
+  max-width: 12%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 100px;
+}
+
+section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  font-size: 80px;
+  color: white;
+}
+input {
+  padding: 20px 10px;
+  border: 3px solid white;
+  border-radius: 40px;
+  background-color: #0239a79e;
+  min-width: 15vw;
+  color: #e11f1b;
+
+  font-size: 38px;
+  text-align: center;
+}
+:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::placeholder {
+  color: #e80400bb;
+}
+
+h6 {
+  color: #e11f1b;
+  font-size: 50px;
+  text-align: center;
+}
